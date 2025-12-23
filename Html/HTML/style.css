@@ -1,0 +1,31 @@
+/* Css - Cascading Style Sheet - define styles - design */
+
+/* how to apply css to html 
+css selectors
+selector specificity
+chaining selectors to control specificity */
+
+/*Inline - as an attribute to a tag
+in the head
+external*/
+
+h4{
+    color: red
+}
+
+
+/* CSS SELECTORS 
+by tag: div
+by class: it can be apply to multiple elements - e.g .witclass
+by id: this is unique, can be apply only to one element - e.g #witid
+
+specificity - Priority to > ID > Class > tag
+
+selector {
+    property: value;
+    property: value;
+    property: value;
+    property: value; 
+}
+
+*/

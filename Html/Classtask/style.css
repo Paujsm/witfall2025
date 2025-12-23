@@ -1,0 +1,86 @@
+/*creating variables*/
+:root {
+    --background-color: blue;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: auto; 
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: center;
+    flex-direction: row;
+}
+
+.card {
+    width: 450px;
+    height: 250px;
+    background: linear-gradient(#f8f8f8, #fff);
+    box-shadow: 0 8px 16px -8px #888888;
+    border-radius: 20px;
+    position: relative;
+    margin: 20px;
+}
+
+.card .left-info {
+    width: 150px;
+    height: 100%;
+    float: left;
+    background-color: var(--background-color);
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.card .left-info img {
+    height: 100px;
+    width: auto;
+}
+
+.card .left-info #user-level, 
+.card .left-info #user-points {
+    color: #fff;
+    background: rgba(0,0,0,0.25);
+    padding: 5px 15px;
+    border-radius: 100px;
+    font-size: 11px;
+}
+
+.card .right-info {
+    position: relative;
+    display: flex;
+    padding: 15px;
+}
+
+.card .right-info header h1 {
+    text-align: center;    
+} 
+
+.plus-minus-button{
+    color: #fff;
+    background: rgba(93, 247, 234, 0.75);
+    padding: 5px 20px;
+    border-radius: 100px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px;
+    
+}
+
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
